@@ -23,6 +23,10 @@ navigation:
       url: /index.html
     - title: About
       url: /about
+    - title: Health & Fitness
+      url: /health-fitness
+    - title: Reading List
+      url: /reading-list
 
 social:
     linkedin: northmore
