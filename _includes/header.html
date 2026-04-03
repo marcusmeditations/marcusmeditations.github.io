@@ -8,9 +8,11 @@
                      <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
                  </li>
                  {%- endfor -%}
+                 {%- if site.social.linkedin -%}
                  <li class="element last">
-                     <a href="http://linkedin.com/in/northmore" target="_blank">Linkedin</a>
+                     <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                  </li>
+                 {%- endif -%}
              </ul>
          </nav>
      </div>
